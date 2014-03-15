@@ -1,8 +1,5 @@
 /**
  * jquery.cssalias - A jQuery Plugin to aliasify your CSS properties.
- * http://stackoverflow.com/questions/2141520/javascript-variable-number-of-arguments-to-function
- * http://learn.jquery.com/plugins/stateful-plugins-with-widget-factory/
- * http://api.jquery.com/css/#css-propertyName-functionindex--value
  */
 (function( $ ) {
 	
