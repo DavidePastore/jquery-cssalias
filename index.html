@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Jquery-cssalias :  A jQuery Plugin to aliasify your CSS properties." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Jquery-cssalias</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/DavidePastore/jquery-cssalias">View on GitHub</a>
+
+          <h1 id="project_title">Jquery-cssalias</h1>
+          <h2 id="project_tagline"> A jQuery Plugin to aliasify your CSS properties.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/DavidePastore/jquery-cssalias/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/DavidePastore/jquery-cssalias/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="what-is-jquery-cssalias-plugin" class="anchor" href="#what-is-jquery-cssalias-plugin"><span class="octicon octicon-link"></span></a>What is jQuery-cssalias plugin</h3>
+
+<p>It is a jQuery Plugin to aliasify your CSS properties. When you want</p>
+
+<h3>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How To Use</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="c1">//Add an alias</span>
+<span class="nx">$</span><span class="p">().</span><span class="nx">cssalias</span><span class="p">(</span><span class="s2">"add"</span><span class="p">,</span> <span class="s2">"background"</span><span class="p">,</span> <span class="p">[</span><span class="s2">"background-color"</span><span class="p">,</span> <span class="s2">"background-attachment"</span><span class="p">]));</span>
+
+<span class="c1">//Get all "background" styles of the #element</span>
+<span class="kd">var</span> <span class="nx">styles</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">"#element"</span><span class="p">).</span><span class="nx">cssalias</span><span class="p">(</span><span class="s2">"background"</span><span class="p">);</span>
+
+<span class="c1">//Delete an alias</span>
+<span class="nx">$</span><span class="p">().</span><span class="nx">cssalias</span><span class="p">(</span><span class="s2">"delete"</span><span class="p">,</span> <span class="s2">"background"</span><span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="aliases-support" class="anchor" href="#aliases-support"><span class="octicon octicon-link"></span></a>Aliases Support</h3>
+
+<p>For now there is a file with all the CSS properties grouped by category (taken from w3schools). <a href="https://github.com/DavidePastore/jquery-cssalias/blob/master/aliases/w3schools/bycategories.js">Download that file</a>.</p>
+
+<h3>
+<a name="import-custom-aliases" class="anchor" href="#import-custom-aliases"><span class="octicon octicon-link"></span></a>Import custom aliases</h3>
+
+<p>You can simply create a new file with all your custom aliases.</p>
+
+<div class="highlight highlight-javascript"><pre><span class="c1">//Add an alias</span>
+<span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">cssalias</span><span class="p">(</span><span class="s2">"add"</span><span class="p">,</span> <span class="s2">"bob"</span><span class="p">,</span> <span class="p">[</span><span class="s1">'background'</span><span class="p">,</span> <span class="s1">'padding'</span><span class="p">,</span> <span class="s1">'width'</span><span class="p">,</span> <span class="s1">'z-index'</span><span class="p">]);</span>
+</pre></div>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p><a href="https://github.com/DavidePastore" class="user-mention">@DavidePastore</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Jquery-cssalias maintained by <a href="https://github.com/DavidePastore">DavidePastore</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
